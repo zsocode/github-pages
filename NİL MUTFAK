@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nil Mutfak</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #013220; /* Koyu yeşil arka plan */
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #016636; /* Daha açık yeşil tonuyla header */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #FFD700; /* Altın sarısı */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .container img {
+            max-width: 90%;
+            margin-bottom: 20px;
+            border: 5px solid #FFD700; /* Altın sarısı çerçeve */
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #016636;
+            color: white;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nil Mutfak</h1>
+    </header>
+    <div class="container">
+        <img src="1.png" alt="Image 1">
+        <img src="2.png" alt="Image 2">
+        <img src="3.png" alt="Image 3">
+        <img src="4.png" alt="Image 4">
+        <img src="5.png" alt="Image 5">
+        <img src="6.png" alt="Image 6">
+        <img src="7.png" alt="Image 7">
+        <img src="8.png" alt="Image 8">
+        <img src="9.png" alt="Image 9">
+        <img src="10.png" alt="Image 10">
+        <img src="11.png" alt="Image 11">
+        <img src="12.png" alt="Image 12">
+        <img src="13.png" alt="Image 13">
+        <img src="14.png" alt="Image 14">
+        <img src="15.png" alt="Image 15">
+        <img src="16.png" alt="Image 16">
+        <img src="17.png" alt="Image 17">
+    </div>
+    <footer>
+        &copy; 2024 Nil Mutfak. Tüm hakları saklıdır.
+    </footer>
+</body>
+</html>
